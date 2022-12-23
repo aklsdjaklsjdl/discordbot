@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+.bazelrc
+bazel-bin
+bazel-discordbot
+bazel-out
+bazel-testlogs
+bot
