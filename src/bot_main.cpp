@@ -46,7 +46,7 @@ int main() {
       command2.set_dm_permission(true);
       command2.add_option(dpp::command_option(dpp::co_string, "query",
                                               "The query you're using", true));
-      command.add_option(dpp::command_option(
+      command2.add_option(dpp::command_option(
           dpp::co_integer, "count", "# of images you want (max 10)", false));
 
       bot.global_command_create(command2, callback);
